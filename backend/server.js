@@ -8,7 +8,7 @@ const taskRoutes = require('./routes/taskRoutes');
 const errorHandler = require('./middleware/errorMiddleware');
 
 const app = express();
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 5001;
 
 // Connect DB
 connectDB();
